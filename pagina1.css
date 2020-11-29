@@ -1,0 +1,18 @@
+.fundo{
+    background-image: url("atendimento.png");
+}
+h2 {
+    color: rgb(125, 134, 177);
+}
+h3 {
+    color: rgb(42, 25, 71);
+}
+.credenciais {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0%;
+    width:100%;
+}
