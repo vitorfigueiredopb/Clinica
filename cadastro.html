@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="pagina1.css">
+        <title>Cadastro de Pacientes</title>
+    </head>
+    <body class="fundo" >
+        <fieldset>
+            <legend> Preencha os Campos abaixo: </legend>
+            <div>
+                <input type="text" placeholder="Nome Completo" required>
+            </div>
+            <div>
+                <input type="date" placeholder="Data de Nascimento */*/*" required>
+            </div>
+            <div>
+                <input type="text" placeholder="Endereço" required>
+                <lablel>Complemento:</lablel>
+                <input type="text" placeholder="Opcional" >
+            </div>
+            <div>
+                <input type="email" placeholder="E-mail" required>
+                <lablel>E-mail alternativo:</lablel>
+                <input type="email" placeholder="Opcional" >
+            </div>
+            <div>
+                <input type="tel" placeholder="Telefone" required>
+            </div>
+            <fieldset class="filho">
+                <legend>Sexo</legend>
+                <div>
+                    <label>Masculino</label>
+                    <input type="radio" name="sexo">
+                    <label>Feminino</label>
+                    <input type="radio" name="sexo">
+                </div>
+            </fieldset>
+            </br>
+            <div>
+            <a href="sucesso.html"><button type="submit" >Cadastrar</button></a>
+            </div>
+            </fieldset>
+        
+    </body>
+    
+</html>
