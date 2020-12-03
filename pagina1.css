@@ -1,11 +1,19 @@
 .fundo{
-    background-image: url("atendimento.png");
+    background-image: url("img/atendimento.png");
+}
+.concluido{
+    background-image: url("img/case-de-sucesso.png");
 }
 h2 {
     color: rgb(125, 134, 177);
+    text-shadow: rgb(65, 48, 94);
 }
 h3 {
-    color: rgb(42, 25, 71);
+    text-shadow: rgb(65, 48, 94);
+}
+p {
+    text-shadow: rgb(234, 231, 238);
+    color: #f0f8ff;
 }
 .credenciais {
     text-align: center;
@@ -15,4 +23,7 @@ footer {
     position: absolute;
     bottom: 0%;
     width:100%;
+}
+.cor {
+    color: #000000;
 }
