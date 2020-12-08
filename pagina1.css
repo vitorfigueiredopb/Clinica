@@ -4,6 +4,11 @@
 .concluido{
     background-image: url("img/case-de-sucesso.png");
 }
+h1{
+    width: 200px;
+    height: 150px;
+    align: center;
+}
 h2 {
     color: rgb(125, 134, 177);
     text-shadow: rgb(65, 48, 94);

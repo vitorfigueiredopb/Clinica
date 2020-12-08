@@ -6,38 +6,48 @@
         <title>Cadastro de Pacientes</title>
     </head>
     <body class="fundo" >
-        <fieldset>
-            <legend> Preencha os Campos abaixo: </legend>
-            <div>
-                <input type="text" placeholder="Nome Completo" required>
-            </div>
-            <div>
-                <input type="date" placeholder="Data de Nascimento */*/*" required>
-            </div>
-            <div>
-                <input type="text" placeholder="Peso" required>
-            </div>
-            <div>
-                <input type="text" placeholder="Altura" required>
-            </div>
-            <div>
-                <input type="tel" placeholder="Telefone" required>
-            </div>
-            <fieldset class="filho">
-                <legend>Sexo</legend>
+        <form>
+            <br>
+                <legend> Preencha os Campos Abaixo: </legend>
+                </br>
                 <div>
-                    <label>Masculino</label>
-                    <input type="radio" name="sexo">
-                    <label>Feminino</label>
-                    <input type="radio" name="sexo">
+                    <input type="text" placeholder="Nome Completo" required>
                 </div>
-            </fieldset>
+                </br>
+                <div>
+                    <input type="date" placeholder="Data de Nascimento */*/*" required>
+                </div>
+                </br>
+                <div>
+                    <input type="text" placeholder="Peso" required>
+                </div>
+                </br>
+                <div>
+                    <input type="text" placeholder="Altura" required>
+                </div>
+                </br>
+                <div>
+                    <input type="tel" placeholder="Telefone" required>
+                </div>
+                </br>
+                <div>
+                    <input type="text" placeholder="Cargo" required>
+                </div>
+                </br>
+                <fieldset class="filho">
+                    <legend>Sexo</legend>
+                    <div>
+                        <label>Masculino</label>
+                        <input type="radio" name="sexo">
+                        <label>Feminino</label>
+                        <input type="radio" name="sexo">
+                    </div>
+                </fieldset>
             </br>
             <div>
             <a href="sucesso.html"><button type="submit" >Cadastrar</button></a>
             </div>
             </fieldset>
-        
+        </form>
     </body>
-    
 </html>
